@@ -69,7 +69,7 @@ def edit(request):
         if user_form.is_valid() and profile_form.is_valid():
             user_form.save()
             profile_form.save()
-            messages.success(request, 'Profime Updated Successfully')
+            messages.success(request, 'Profie Updated Successfully')
         else:
             messages.error(request, 'OOPS!! Somthing Went Wrong')
 
